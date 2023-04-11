@@ -1,0 +1,36 @@
+.loginform {
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.loginform .username {
+    padding-top: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.loginform .username .inputusername {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.loginform .password {
+    padding-top: 20px;
+}
+
+.loginform .password .inputpass {
+    margin-left: 10px;
+}
+
+.loginform .login {
+    padding-top: 20px;
+    margin-left: 70px;
+}
+
+.loginform .login .loginbtn {
+    border-radius: 5px;
+    width: 100px;
+}
