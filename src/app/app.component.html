@@ -1,10 +1,10 @@
 <app-header></app-header>
 <router-outlet></router-outlet>
 
-<form class="loginform" #userForm="ngForm" (submit)="getUserFormData(userForm.value)">
+<form class="loginform" #userForm="ngForm" (ngSubmit)="login(userForm.value)">
     <div class="username">
         <label for="">User Name</label>
-        <input class="inputusername" ngModel name="Usarname" type="text">
+        <input class="inputusername" ngModel name="username" type="text">
     </div>
     <div class="password">
         <label for="">Password</label>
