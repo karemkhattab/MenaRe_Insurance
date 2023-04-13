@@ -6,16 +6,35 @@
         margin-top: 2px;
     }
 
-    .side_bar .treaty_1 {
+    .btn-group button {
         width: 85%;
-        height: 50px;
+        height: 65px;
         border: 1px solid black;
         margin-left: 30px;
-        margin-top: 30px;
+        margin-top: 25px;
         text-align: center;
-        padding-top: 25px;
+        padding-top: 0px;
         font-size: 30px;
         background-color: #2e69ed;
+    }
+
+    .dropdown-menu {
+        list-style: none;
+        line-height: 40px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+
+    .dropdown-menu li {
+        text-align: center;
+        border: 1px solid black;
+        margin: 10px;
+        background-color: yellow;
+        font-size: large;
+    }
+
+    .dropdown-menu li a {
+        text-decoration: none;
     }
 
     .side_bar .treaty_2 {
@@ -55,10 +74,13 @@
     }
 
     .content {
-        height: 850px;
         width: auto;
         float: left;
         margin-top: 2px;
+    }
+
+    .content .content_up {
+        height: 500px;
     }
 
     .content .content_up .one {
@@ -70,6 +92,19 @@
         float: left;
         font-size: 20px;
         text-align: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .one button {
+        margin-top: 7px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
+    }
+
+    .content .content_up .one p {
+        padding-top: 20px;
     }
 
     .content .content_up .two {
@@ -81,6 +116,15 @@
         float: left;
         text-align: center;
         font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .two button {
+        margin-top: 15px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
     }
 
     .content .content_up .three {
@@ -92,6 +136,15 @@
         float: left;
         text-align: center;
         font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .three button {
+        margin-top: 15px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
     }
 
     .content .content_up .four {
@@ -103,6 +156,19 @@
         float: left;
         text-align: center;
         font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .four button {
+        margin-top: 7px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
+    }
+
+    .content .content_up .four p {
+        padding-top: 20px;
     }
 
     .content .content_up .five {
@@ -114,6 +180,19 @@
         float: left;
         text-align: center;
         font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .five button {
+        margin-top: 7px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
+    }
+
+    .content .content_up .five p {
+        padding-top: 20px;
     }
 
     .content .content_up .six {
@@ -125,6 +204,15 @@
         float: left;
         text-align: center;
         font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .six button {
+        margin-top: 15px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
     }
 
     .content .content_up .seven {
@@ -136,6 +224,19 @@
         float: left;
         text-align: center;
         font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .seven button {
+        margin-top: 7px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
+    }
+
+    .content .content_up .seven p {
+        padding-top: 20px;
     }
 
     .content .content_up .eight {
@@ -147,9 +248,27 @@
         float: left;
         font-size: 20px;
         text-align: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .content .content_up .eight button {
+        margin-top: 7px;
+        font-size: medium;
+        background-color: yellow;
+        border: transparent;
+    }
+
+    .content .content_up .eight p {
+        padding-top: 20px;
     }
 
     .content .content_down p {
         margin-left: 200px;
         line-height: 30px;
+    }
+
+    .content hr {
+        width: 900px;
+        margin-left: 200px;
     }
