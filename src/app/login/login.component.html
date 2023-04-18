@@ -1,0 +1,14 @@
+<form class="loginform" #userForm="ngForm" (ngSubmit)="login(userForm.value)">
+    <div class="username">
+        <label for="">User Name</label>
+        <input class="inputusername" ngModel name="username" type="text">
+    </div>
+    <div class="password">
+        <label for="">Password</label>
+        <input class="inputpass" ngModel name="password" type="password" id="">
+    </div>
+    <div class="login">
+        <button value="go to google" class="loginbtn" type="submit">LOGIN</button>
+    </div>
+
+</form>

@@ -6,13 +6,18 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FormsModule}from "@angular/forms"
 import{ HttpClientModule} from '@angular/common/http';
-import { DashboardComponent } from './dashboard/dashboard.component'
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ApplicationFormComponent } from './application-form/application-form.component';
+import { LoginComponent } from './login/login.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    DashboardComponent
+    DashboardComponent,
+    ApplicationFormComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +26,7 @@ import { DashboardComponent } from './dashboard/dashboard.component'
     HttpClientModule
 
   ],
-  providers: [],
+  providers: [  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

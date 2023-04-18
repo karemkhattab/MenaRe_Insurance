@@ -13,10 +13,13 @@ export class AppComponent {
   }
 
   login(data:any){
+
     console.warn(data)
-    this.loginservice.savelog(data).subscribe((result)=>
+    this.loginservice.login(data).subscribe((result)=>
     {
       console.warn(result)
+
+
     })
   }
 

@@ -1,0 +1,96 @@
+.side_bar {
+    width: 25%;
+    background-color: #80808038;
+    height: 850px;
+    float: left;
+    margin-top: 2px;
+}
+
+.btn-group button {
+    width: 85%;
+    height: 50px;
+    height: 65px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 25px;
+    padding-top: 0px;
+    font-size: 30px;
+    background-color: #2e69ed;
+}
+
+.btn-group button a {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    list-style: none;
+    line-height: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.dropdown-menu li {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: yellow;
+    font-size: large;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+}
+
+.side_bar .treaty_2 {
+    width: 85%;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    background-color: #2e69ed;
+}
+
+.side_bar .treaty_3 {
+    width: 85%;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    background-color: #2e69ed;
+}
+
+.side_bar .treaty_4 {
+    width: 85%;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    background-color: #2e69ed;
+}
+
+.content .table {
+    width: 500px;
+    margin-left: 50%;
+    margin-top: 400px;
+    border: 1px solid black;
+    background-color: #7070701a;
+}
+
+.content .table tr,
+td {
+    border: 1px black solid;
+    width: 500px;
+    padding-left: 5px;
+}
