@@ -13,10 +13,11 @@ export class LoginComponent {
   }
 
   login(data: any) {
-    console.warn(data);
+    localStorage.setItem("user", JSON.stringify(data));
+    console.log(JSON.stringify(data))
     this.loginservice.login(data).subscribe((result) => {
-      console.warn(result);
-      localStorage.setItem("user", JSON.stringify(result));
+
+
     });
   }
   IsLogged() {

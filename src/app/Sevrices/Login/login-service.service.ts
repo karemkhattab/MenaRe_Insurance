@@ -27,5 +27,9 @@ export class LoginServiceService {
 return this.http.post("https://d918-45-241-11-65.ngrok-free.app/api/Auth/Company/Login",JSON.stringify(data),config)
   }
 
+  IsLogged() {
 
+       return localStorage.hasOwnProperty('user')
+
+  }
 }
